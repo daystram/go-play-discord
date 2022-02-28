@@ -2,7 +2,10 @@ module github.com/daystram/go-play-discord
 
 go 1.17
 
-require github.com/bwmarrin/discordgo v0.23.3-0.20220227163103-4b615bec361d
+require (
+	github.com/bwmarrin/discordgo v0.23.3-0.20220227163103-4b615bec361d
+	github.com/tenntenn/goplayground v0.3.0
+)
 
 require (
 	github.com/gorilla/websocket v1.4.2 // indirect
