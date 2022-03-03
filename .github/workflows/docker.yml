@@ -40,4 +40,4 @@ jobs:
             daystram/${{ env.APPLICATION }}:latest
             daystram/${{ env.APPLICATION }}:${{ steps.semver.outputs.major }}
             daystram/${{ env.APPLICATION }}:${{ steps.semver.outputs.major }}.${{ steps.semver.outputs.minor }}
-            daystram/${{ env.APPLICATION }}:${{ steps.semver.outputs.major }}.${{ steps.semver.outputs.minor }}.${{ steps.semver_parser.outputs.patch }}
+            daystram/${{ env.APPLICATION }}:${{ steps.semver.outputs.major }}.${{ steps.semver.outputs.minor }}.${{ steps.semver.outputs.patch }}
